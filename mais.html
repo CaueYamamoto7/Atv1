@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <!-- MetaDados para indicar linguagem, escala, author, descrição, titulo, icone e css para o navegador-->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Cauê Kazuo Yamamoto - Unifil / Londrina">
+        <meta name="description" content="Plataforma para contar a história por trás de Artistas e Grupos Músicais. Exposed">
+            <title>MusicFy - Exposed Artistas</title>
+        <link rel="icon" type="image/png" href="imagens/Miniatura.png">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!-- Topbar para exibir autor e identificar que é projeto -->
+        <div class="topbar">
+            <div class="container">
+                <div>
+                    <p>Developed by Cauê Yamamoto - Unifil / Londrina</p>
+                </div>
+                    <P>Primeiro projeto - HTML básico</P>
+            </div>
+        </div>
+        <!-- Header com logo + navbar-->
+        <header class="site" id="header">
+            <img src="imagens/Logo.png" alt="Logo MusicFy">
+            <nav class="nav-main"  aria-label="Navegação principal">
+                <a href="/">Inicio</a>
+                <a href="mais.html" class="is-active">Acessar</a>
+                <a href="legado.html">Legado</a>
+            </nav>
+        </header>
+        <!-- Container para agrupar conteudo da página-->
+        <main class="Corpo-container">
+            <h1>Acessar</h1>
+            <!-- Container para separar em sessoes semanticas-->
+            <section>
+                <h2>Via Youtube</h2>
+                <!-- Lista ordanada passo a passo --> 
+                <ol type="I" start="1">
+                    <li>Pesquise por youtube.com no seu navegador</li>
+                    <li>Pesquise por Charlie Brown JR. Músicas</li>
+                    <li>Escolha a musica desejada e de play</li>
+                </ol>
+            </section>
+            <h4>Ou clique no link abaixo</h4>
+            <P>Após acessar o link, realize a etapa 3</P>
+            <!-- Lista não ordanada de links -->
+                <ul>
+                    <!-- Link interno-->
+                    <li><a href="https://www.youtube.com/channel/UC5k4fsA9AhxNLgMQa36CVdg" target="_self">Acessar nesta janela</a></li>
+                    <!-- Link externo-->
+                    <li><a href="https://www.youtube.com/channel/UC5k4fsA9AhxNLgMQa36CVdg" target="_blank" rel="noopener noreferrer">Abrir outra janela</a>
+                    </li>
+                </ul>
+                <!-- Container para separar em sessoes semanticas-->
+                <section>
+                    <h2>Veja uma música</h2>
+                    <p>Prévia - Se preferir, use os links acima.</p>
+                    <div class="video-responsivo">
+                        <!-- Abrir video da música direto no site-->
+                        <!-- Quebrado por restrições do YouTube -->
+                        <iframe
+                            src="https://www.youtube.com/embed/AktA7DH9LOc"
+                            loading="lazy"
+                            allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                    </div>
+                </section>
+        </main>
+        <!-- Footer com créditos -->
+        <footer>
+            <p><strong>Créditos</strong></p>
+                <p>Cauê Kazuo Yamamoto</p>
+            <div>
+                <a href="#header">Voltar ao topo</a>
+            </div>
+                <p>© 2026 MusicFy</p>
+        </footer>
+    </body>
+</html>
