@@ -10,17 +10,17 @@ Página HTML sobre música: **Charlie Brown Jr.**
 
 ##  Feito
 
-1. **Estrutura básica:** 
+1. **Estrutura básica** 
 2. **Estrutura semântica:** `header`, `nav`, `main`, `section`, `article`, `figure`, `footer`.
-3. **Conteúdo:**
+3. **Conteúdo**
 4. **Listas:**
    - Ordenada (`ol`) em `mais.html` — passo a passo para ouvir no YouTube.
    - Não ordenada (`ul`) em `index.html` e `mais.html` — músicas e links.
 5. **Links:**
    - Externo (nova aba): canal do YouTube com `target="_blank"`.
    - Interno (âncora): `#historia`, `#musicas` e `#header` (voltar ao topo).
-6. **Imagem:**
-7. **Organização:**
+6. **Imagem**
+7. **Organização**
 
 **Extra:** `iframe` com vídeo do YouTube.
 
